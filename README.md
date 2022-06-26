@@ -54,7 +54,7 @@ sudo ./lehs.sh -p -n
 Contributions are always welcome!
 
 Please adhere to this project's
-[Code of Conduct](https://github.com/lorenzo3421/lorfos-easy-home-server/blob/main/CODE_OF_CONDUCT.md).
+[Code of Conduct](https://github.com/lorenzo3421/lorfos-easy-home-server/blob/main/.github/CODE_OF_CONDUCT.md).
 
 
 ## License
