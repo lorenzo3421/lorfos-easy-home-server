@@ -97,7 +97,7 @@ EOF
             fi
             if [ "$nginx" = true ]; then
                 echo "=================================================="
-                echo "Nginx Proxy Manager: https://localhost:81/"
+                echo "Nginx Proxy Manager: http://localhost:81/"
                 echo "Default email is:    admin@example.com"
                 echo "Default password is: changeme"
                 echo "=================================================="
@@ -152,7 +152,7 @@ if [ "$web" = false ]; then
     fi
     if [ "$nginx" = true ]; then
         echo "=================================================="
-        echo "Nginx Proxy Manager: https://localhost:81/"
+        echo "Nginx Proxy Manager: http://localhost:81/"
         echo "Default email is:    admin@example.com"
         echo "Default password is: changeme"
     fi
