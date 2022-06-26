@@ -61,8 +61,22 @@ Install Portainer and Nginx Proxy Manager:
 sudo ./lehs.sh -p -n
 ```
 
-If you want to add a new Container, just add a folder inside `./docker/` and inside of that folder, add it's docker-compose.yml,
+If you want to add a new Container, just add a folder inside `./docker/` and inside of that folder, add it's `docker-compose.yml`,
 after doing so, you can update all containers using:
+```
+sudo ./lehs.sh -u
+```
+
+## What next?
+
+Well, you could have your own [Cloud Storage](https://hub.docker.com/r/linuxserver/nextcloud)!
+
+Or maybe [Hastebin](https://github.com/angristan/docker-hastebin)!
+
+You can now setup any Docker container that uses a `docker-compose.yml`
+
+Remember that afterwards you can update all of your containers using:
+
 ```
 sudo ./lehs.sh -u
 ```
