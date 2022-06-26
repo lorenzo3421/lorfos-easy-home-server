@@ -1,4 +1,3 @@
-
 # Lorfo's Easy Home Server
 ![GitHub](https://img.shields.io/github/license/lorenzo3421/lorfos-easy-home-server)
 
@@ -6,12 +5,14 @@ Want to quickstart your own home server? You're in the right place!
 
 **Lorfo's Easy Home Server** uses docker-compose and automatically sets up
 Portainer (Container Management) and Nginx Proxy Manager (For Reverse Proxy)
+
 ## Features
 
 - Installs Portainer and Nginx Proxy Manager automatically
 - Can open your browser automatically for account setup in both Portainer and Nginx Proxy Manager
 - Can Update (and start) all containers in it's "docker" folder
 - Can Remove all containers in it's "docker" folder
+- 
 ## Usage
 
 Clone the repository:
@@ -49,6 +50,13 @@ Install Portainer and Nginx Proxy Manager:
 ```
 sudo ./lehs.sh -p -n
 ```
+
+If you want to add a new Container, just add a folder inside `./docker/` and inside of that folder, add it's docker-compose.yml,
+after doing so, you can update all containers using:
+```
+sudo ./lehs.sh -u
+```
+
 ## Contributing
 
 Contributions are always welcome!
@@ -60,4 +68,3 @@ Please adhere to this project's
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
