@@ -15,7 +15,7 @@ Portainer (Container Management) and Nginx Proxy Manager (For Reverse Proxy)
 - 
 ## Usage
 
-Clone the repository:
+Clone the repository and give execution permission to `lehs.sh`:
 
 ```
 git clone https://github.com/lorenzo3421/lorfos-easy-home-server
