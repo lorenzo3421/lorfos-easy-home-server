@@ -12,7 +12,17 @@ Portainer (Container Management) and Nginx Proxy Manager (For Reverse Proxy)
 - Can open your browser automatically for account setup in both Portainer and Nginx Proxy Manager
 - Can Update (and start) all containers in it's "docker" folder
 - Can Remove all containers in it's "docker" folder
-- 
+
+## Requirements
+
+You need Linux to run this script,
+I'd personally suggest a Linux server and not your main computer
+
+You can setup an [Ubuntu Server](https://ubuntu.com/download/server) easily
+
+If you're using a terminal, don't use the -w (or --web) option,
+because that requires a Desktop Environment or Window Manager to work.
+
 ## Usage
 
 Clone the repository and give execution permission to `lehs.sh`:
