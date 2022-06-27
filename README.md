@@ -81,6 +81,16 @@ Remember that afterwards you can update all of your containers using:
 sudo ./lehs.sh -u
 ```
 
+## Roadmap
+
+- [x] Install Portainer and Nginx Proxy Manager
+- [x] Update and Remove all Containers
+- [x] Open Web Interfaces automatically
+- [ ] Apps folder with ready-to-use apps like NextCloud or Hastebin
+- [ ] List current apps
+- [ ] Select only a single app to Update/Remove
+- [ ] Automatically install/update docker and docker-compose
+
 ## Contributing
 
 Contributions are always welcome!
